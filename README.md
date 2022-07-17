@@ -164,7 +164,7 @@ Figure above shows the process of `autopilotCallBack` function.
 
 After launching of the **Monza Raccing Circuit** and also after launching of the `robot controller node` i.e. named as `autopilot_controller_node`, he robot will move around the circuit at a constant velocity of 1.0 towards its relative x-axis resulting in a forward motion. This speed may vary depending on the accelleration factor given by the user. his float number is stored in the `acc` variable which is added to the initial linear speed. Through the `user_interface_node` the user can either rase or slow down the speed factor by 0.5 notchs.Once the middle detecting area scans a distance shorter than 1.5 units, the robot will stop driving forward and it'll check on the other detecting regions.
 
-![Alt Text](Results_Worlds_Images/robotturningon curves.gif)
+![Alt Text](Results_Worlds_Images/robotturningoncurves.gif)
 
 
 
