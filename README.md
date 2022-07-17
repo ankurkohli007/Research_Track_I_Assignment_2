@@ -7,12 +7,12 @@
 # Assignment 2: Monza Raccing Circuit
 
 ##Abstract
-This assignment analyzes how to control the robot using [ROS](https://www.ros.org/) (Robot Operating System). The robot is endowed with laser scanners. There were different nodes were design to control the robot. Also, one additional node which interacts with the user to increase/decrease the speeed of the robot and reset the position of the robot. For this, ***cpp*** programing is used. <br>
+This assignment analyzes how to control the robot using [ROS](https://www.ros.org/) (Robot Operating System). The robot is endowed with laser scanners. There were different nodes were design to control the robot. Also, one additional node which interacts with the user to increase/decrease the speeed of the robot and reset the position of the robot. For this, ***cpp*** programing is used. 
 
 ## Introduction
 In this assignment, a controller that runs on ROS. A simple robot which runs autonomously on a track which is basically the reproduction of the [Monza Racing Circuit](https://www.monzanet.it/en/). The robot runs on a track and alos avoides the collision with the walls. Lastly, user interface node is designed which gives access to the users to operate robot's and also change it's behaviour such as increase/decrease of the speed, resetting the robots position.
 
-##Objective
+## Objective
 This assignment objective to create a ROS Package which have the ability of designing a robot equipped with the laser scanners, a lap around a given circuit. Moreover, package conists of the cpp sources needed for the interaction with the robot. The world where the robot has to run autonomously is a simple 3D model of the actual Monza's F1 circuit. ROS is a group os tools and libraries for autonomous, robust, efficient, and secure mobile robot navigation, which uses sensors to sense the surroundings and computer vision techniques as the navigation method.
 
 The robot behaviour has to fullfill the following criteria while running on the circuit:
@@ -28,7 +28,7 @@ The user can easily control the robot operations by using **Keyboard Keys**:
 * * By giving an input as `r/R`, this will **RESET** the robot's position at every input from the keyboard by user end.
 * By giving an input as `q/Q`, thi will **QUIT** the session. 
 
-##World
+## World
 The circuit as shown in figure below is the **WORLD** where robot runs autonomously and perform it's operations as per user inputs. The robot is represented as a blue point which is equipped with laser scanner. The light blue area is the area scanned by the laser sensors on the robot.
 
 ![alt text](Results_Worlds_Images/world.png) 
@@ -37,9 +37,9 @@ The ```world``` node publishes messages on the ```/base_scan``` topic. Messages 
 
 It also subscribes to the topic ```/cmd_vel``` to impose a linear and angular velocity to the robot along the three axis. It receives ```Twist``` type messages from ```geometry_msgs``` package.
 
-##Intalling & Running 
+## Intalling & Running 
 
-######Installation
+###### Installation
 
 For this assignment, simulation requires [ROS Noetic](https://wiki.ros.org/noetic/Installation). After installing ROS Noetic on your system clone the [Prof. Carmine Tommaso Recchiuto](https://github.com/CarmineD8/second_assignment). this repository contains the main workspace for running the simulation world. The source includes the *CmakeList* for compiling the node and the *World* file for building the scene.
 
@@ -51,7 +51,7 @@ The package developed during the assignmnet are as belows:
 * ONE *custom service* ```Velocity.srv``` needed by the server node to exchange data between the *request* and the *response*.
 * ONE *custom message* ```Vel.msg``` needed to pass the acceleration factor from the service to the controller through the use of a topic.
 
-######Running the program
+###### Running the program
 
 * After cloning the repository from the aforementioned *GitHub* link, copy the `second_assignment` folder which is included in the cloned repository and paste in the src folder which is inside local ROS workspace directory or else you can directly clone the aforementioned repository in your src folder of the local ROS workspace. 
 * Now, back to your ROS worksapce folder, run the command ```catkin_make```. This command will build all the scripts in the package.
@@ -81,9 +81,9 @@ rosrun second_assignment host_node
 ```
 rosrun second_assignment user_interface_node
 ```
-##NODES Descriptions & their logics
+## NODES Descriptions & their logics
 
-######Simulation Node: StageRos node (stage_ros package)
+###### Simulation Node: StageRos node (stage_ros package)
 
 The stageros node wraps the Stage 2-D multi-robot simulator, via libstage and this node is used for the simulation is the standard node `StageRos`. Stage simulates a world as defined in a .world file. This file tells stage everything about the world, from obstacles (usually represented via a bitmap to be used as a kind of background), to robots and other objects.
 
@@ -117,7 +117,7 @@ rosrun stage_ros stageros [-g runs headless] <world> [standard ROS args]
 ***Nodes Topic Active StageRos RQT Graph*** 
 ![alt text](https://github.com/ankurkohli007/Research_Track_I_Assignment_2/blob/main/Results_Worlds_Images/nodestopicactiverqtstageros.png)
 
-######Robot Controller Node: autopilot_controller_node
+###### Robot Controller Node: autopilot_controller_node
 
 Robot Controller Node will drives the robot autonomously. Also, while moving inside a circuit robot's have the ability to avoid the collision among the walls. t will command the robot to drive at a certain velocity inside the track. In this node, robot will also be able to scan the walls of the circuit and not hit them. The robot subscribes and publishes to the following topics: 
 
