@@ -1,4 +1,4 @@
-**[Research Track I]**<br> (https://corsi.unige.it/en/off.f/2021/ins/51201)
+**[Research Track I]**(https://corsi.unige.it/en/off.f/2021/ins/51201)
 **Programmer:** [Ankur Kohli](https://github.com/ankurkohli007)<br>
 [M.Sc Robotics Engineering](https://corsi.unige.it/corsi/10635)
 [University of Genoa (uniGe)](https://unige.it/en)
@@ -31,7 +31,7 @@ The user can easily control the robot operations by using **Keyboard Keys**:
 ##World
 The circuit as shown in figure below is the **WORLD** where robot runs autonomously and perform it's operations as per user inputs. The robot is represented as a blue point which is equipped with laser scanner. The light blue area is the area scanned by the laser sensors on the robot.
 
-![alt text](https://github.com/ankurkohli007/Research_Track_I_Assignment_2/blob/main/Results_Worlds_Images/world.png) 
+![alt text](Results_Worlds_Images/world.png) 
 
 The ```world``` node publishes messages on the ```/base_scan``` topic. Messages are ```LaserScan``` type, from ```sensor_msg``` package, and they provide the result of a single scan by the robot's laser sensors.
 
