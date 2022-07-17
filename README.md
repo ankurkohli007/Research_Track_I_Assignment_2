@@ -293,9 +293,9 @@ To execute this node run the command
 ```
 rosrun second_assignment host_node
 ```
-![alt text](Results_Worlds_Images/hostenodeterminal.png)
+![alt text](Results_Worlds_Images/hostnodeterminal.png.png)
 
-Figure above shows the process of `user_interface_node` terminal.
+Figure above shows the process of `host_node` terminal.
 
 ###### User Interface Node: user_interface_node 
 
