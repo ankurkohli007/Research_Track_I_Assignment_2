@@ -1,7 +1,7 @@
 [Research Track I](https://corsi.unige.it/en/off.f/2021/ins/51201)<br>
 **Programmer:** [Ankur Kohli](https://github.com/ankurkohli007)<br>
-[M.Sc Robotics Engineering](https://corsi.unige.it/corsi/10635)
-[University of Genoa (uniGe)](https://unige.it/en)
+[M.Sc Robotics Engineering](https://corsi.unige.it/corsi/10635)<br>
+[University of Genoa (uniGe)](https://unige.it/en)<br>
 **Supervisor:** [Prof. Carmine Tommaso Recchiuto](https://rubrica.unige.it/personale/UkNDWV1r)
 
 # Assignment 2: Monza Raccing Circuit
