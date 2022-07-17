@@ -293,7 +293,7 @@ To execute this node run the command
 ```
 rosrun second_assignment host_node
 ```
-![alt text](Results_Worlds_Images/hostnodeterminal.png.png)
+![alt text](Results_Worlds_Images/hostnodeterminal.png)
 
 Figure above shows the process of `host_node` terminal.
 
