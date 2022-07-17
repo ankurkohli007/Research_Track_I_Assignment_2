@@ -7,7 +7,7 @@
 # Assignment 2: Monza Raccing Circuit
 
 ##Abstract
-This assignment analyzes how to control the robot using [ROS](https://www.ros.org/) (Robot Operating System). The robot is endowed with laser scanners. There were different nodes were design to control the robot. Also, one additional node which interacts with the user to increase/decrease the speeed of the robot and reset the position of the robot. For this, ***cpp*** programing is used. 
+This assignment analyzes how to control the robot using [ROS](https://www.ros.org/) (Robot Operating System). The robot is endowed with laser scanners. There were different nodes were design to control the robot. Also, one additional node which interacts with the user to increase/decrease the speeed of the robot and reset the position of the robot. For this, ***cpp*** programing is used. <br>
 
 ## Introduction
 In this assignment, a controller that runs on ROS. A simple robot which runs autonomously on a track which is basically the reproduction of the [Monza Racing Circuit](https://www.monzanet.it/en/). The robot runs on a track and alos avoides the collision with the walls. Lastly, user interface node is designed which gives access to the users to operate robot's and also change it's behaviour such as increase/decrease of the speed, resetting the robots position.
