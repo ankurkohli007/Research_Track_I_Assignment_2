@@ -112,10 +112,10 @@ Stageros only exposes models created by a subset of the `.world` file syntax, sp
 rosrun stage_ros stageros [-g runs headless] <world> [standard ROS args]
 ```
 ***Nodes Topic StageRos RQT Graph*** 
-![alt text](https://github.com/ankurkohli007/Research_Track_I_Assignment_2/blob/main/Results_Worlds_Images/nodestopicrqtstageros.png)
+![alt text](Results_Worlds_Images/nodestopicrqtstageros.png)
 
 ***Nodes Topic Active StageRos RQT Graph*** 
-![alt text](https://github.com/ankurkohli007/Research_Track_I_Assignment_2/blob/main/Results_Worlds_Images/nodestopicactiverqtstageros.png)
+![alt text](Results_Worlds_Images/nodestopicactiverqtstageros.png)
 
 ###### Robot Controller Node: autopilot_controller_node
 
@@ -158,9 +158,9 @@ float mini ( float arr[720], int ind=0, int size=720)
 ```
 Another function called `autopilotCallBack`, this will execute a cycle that will determine what velocity to publish on the `cmd_vel`  topic. 
 
-![alt text](https://github.com/ankurkohli007/Research_Track_I_Assignment_2/blob/main/Results_Worlds_Images/autopilotCallBackFlowChart.png)
+![alt text](Results_Worlds_Images/autopilotCallBackFlowChart.png)
 
-Figure above shows the process of `autopilotCallBack` function
+Figure above shows the process of `autopilotCallBack` function.
 
 
 
