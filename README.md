@@ -115,7 +115,7 @@ rosrun stage_ros stageros [-g runs headless] <world> [standard ROS args]
 ![alt text](Results_Worlds_Images/nodestopicrqtstageros.png)
 
 ***Nodes Topic Active StageRos RQT Graph*** 
-![alt text](Results_Worlds_Images/nodestopicactiverqtstageros.png)
+![alt text](Results_Worlds_Images/nodestopicactiverqtstageros.png.png)
 
 ###### Robot Controller Node: autopilot_controller_node
 
