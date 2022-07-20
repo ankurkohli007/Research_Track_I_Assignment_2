@@ -39,7 +39,7 @@ It also subscribes to the topic ```/cmd_vel``` to impose a linear and angular ve
 
 ## Intalling & Running 
 
-###### Installation
+## Installation
 
 For this assignment, simulation requires [ROS Noetic](https://wiki.ros.org/noetic/Installation). After installing ROS Noetic on your system clone the [Prof. Carmine Tommaso Recchiuto](https://github.com/CarmineD8/second_assignment). this repository contains the main workspace for running the simulation world. The source includes the *CmakeList* for compiling the node and the *World* file for building the scene.
 
@@ -51,7 +51,7 @@ The package developed during the assignmnet are as belows:
 * ONE *custom service* ```Velocity.srv``` needed by the server node to exchange data between the *request* and the *response*.
 * ONE *custom message* ```Vel.msg``` needed to pass the acceleration factor from the service to the controller through the use of a topic.
 
-###### Running the program
+## Running the program
 
 * After cloning the repository from the aforementioned *GitHub* link, copy the `second_assignment` folder which is included in the cloned repository and paste in the src folder which is inside local ROS workspace directory or else you can directly clone the aforementioned repository in your src folder of the local ROS workspace. 
 * Now, back to your ROS worksapce folder, run the command ```catkin_make```. This command will build all the scripts in the package.
@@ -83,7 +83,7 @@ rosrun second_assignment user_interface_node
 ```
 ## NODES Descriptions & their logics
 
-###### Simulation Node: StageRos node (stage_ros package)
+## Simulation Node: StageRos node (stage_ros package)
 
 The stageros node wraps the Stage 2-D multi-robot simulator, via libstage and this node is used for the simulation is the standard node `StageRos`. Stage simulates a world as defined in a .world file. This file tells stage everything about the world, from obstacles (usually represented via a bitmap to be used as a kind of background), to robots and other objects.
 
@@ -117,7 +117,7 @@ rosrun stage_ros stageros [-g runs headless] <world> [standard ROS args]
 ***Nodes Topic Active StageRos RQT Graph*** 
 ![alt text](Results_Worlds_Images/nodestopicactiverqtstageros.png.png)
 
-###### Robot Controller Node: autopilot_controller_node
+## Robot Controller Node: autopilot_controller_node
 
 Robot Controller Node will drives the robot autonomously. Also, while moving inside a circuit robot's have the ability to avoid the collision among the walls. t will command the robot to drive at a certain velocity inside the track. In this node, robot will also be able to scan the walls of the circuit and not hit them. The robot subscribes and publishes to the following topics: 
 
@@ -251,7 +251,7 @@ Another function called `autopilotCallBack`, this will execute a cycle that will
 
 Figure above shows the process of `autopilotCallBack` function.
 
-###### Server Node: host_node
+## Server Node: host_node
 
 This is the server node named as `host_node` which manages the velocity factor of the robot. The Server node exploits the *custom server* `second_assignment/Velocity` to receive a **request** and produce a **response** in the user interface node. 
 
@@ -297,7 +297,7 @@ rosrun second_assignment host_node
 
 Figure above shows the process of `host_node` terminal.
 
-###### User Interface Node: user_interface_node 
+## User Interface Node: user_interface_node 
 
 This is the user interface node which communicates with the user to input the command and give the response to the user node. The `std::cin>>` will associate the `char` input to a `char` variable that will later be passed as a **request** of the *ros::ServiceClient client1*. The client will send the request to a service of type `/Velocity`. The service will associate the read `char` to the increase or the decrease of the speed variable. The node will later associate the **response** of the service to the `float` variable of the `my_vel.a (second_assignment/Vel)` variable of the custom message `/acc`. At last, the `float` variable will be **published** to the Topic to pass the information about the acceleration factor inside the controller. The code below shows the *interfacing()*.
 
@@ -385,7 +385,7 @@ int main (int argc, char **argv)
 
 Figure above shows the *Assignment Architecture*.
 
-###### Performance of AutoPilot Robot in Monza Raccing Circuit
+## Performance of AutoPilot Robot in Monza Raccing Circuit
 
 ![Alt Text](Results_Worlds_Images/performanceofautopilotrobot.gif)
 
