@@ -63,7 +63,7 @@ rospack profile
 
 **Step 1:** Open a terminal, and run the master node in terminal to run the ROS in your PC by the following command: 
 ```
-roscore&
+roscore &
 ```
 **Step 2:** After execution of master node, in the same terminal run the **world simulation** by the command to launch the robot in the given world. 
 ```
