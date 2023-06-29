@@ -320,7 +320,7 @@ rosrun second_assignment host_node
 ![alt text](Results_Worlds_Images/hostnodeterminal.png)
 
 <p align="center">
-    <em>Flow chart of host_node</em>
+    <em>Output of host_node</em>
 </p>
 
 Figure above shows the process of `host_node` terminal.
