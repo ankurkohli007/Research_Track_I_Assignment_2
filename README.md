@@ -33,6 +33,10 @@ The circuit as shown in figure below is the **WORLD** where robot runs autonomou
 
 ![alt text](Results_Worlds_Images/world.png) 
 
+<p align="center">
+    <em>Monza Raccing Circuit World</em>
+</p>
+
 The ```world``` node publishes messages on the ```/base_scan``` topic. Messages are ```LaserScan``` type, from ```sensor_msg``` package, and they provide the result of a single scan by the robot's laser sensors.
 
 It also subscribes to the topic ```/cmd_vel``` to impose a linear and angular velocity to the robot along the three axis. It receives ```Twist``` type messages from ```geometry_msgs``` package.
