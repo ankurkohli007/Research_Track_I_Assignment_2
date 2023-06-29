@@ -269,6 +269,10 @@ Another function called `autopilotCallBack`, this will execute a cycle that will
 
 ![alt text](Results_Worlds_Images/autopilotCallBackFlowChart.png)
 
+<p align="center">
+    <em>Flow chart of autopilotCallBack</em>
+</p>
+
 Figure above shows the process of `autopilotCallBack` function.
 
 ## Server Node: host_node
