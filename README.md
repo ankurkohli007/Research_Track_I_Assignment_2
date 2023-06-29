@@ -440,6 +440,10 @@ rosrun rqt_graph rqt_graph
 
 ![alt text](Results_Worlds_Images/RQTGraph.png)
 
+<p align="center">
+    <em>Final RQT Graph</em>
+</p>
+
 Figure above shows the *RQT Graph* of the assgnment.
 
 ## Improvements 
