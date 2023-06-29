@@ -182,6 +182,9 @@ After evervy cycle, the speed of the robot will published on the `cmd_vel` topic
 
 ![alt text](Results_Worlds_Images/terminalofautopilotcontrollernode.png)
 
+<p align="center">
+    <em>Output of autopilot_controller_node</em>
+</p>
 
 Below is the definition of the `autopilotCallBack` function. This shows how the functions plays a role in the task. 
 
