@@ -387,6 +387,10 @@ rosrun second_assignment user_interface_node
 ```
 ![alt text](Results_Worlds_Images/userinterfaceterminal.png)
 
+<p align="center">
+    <em>Output of user_interface</em>
+</p>
+
 Figure above shows the process of `user_interface_node` terminal.
 
 The function spins on the `main()` function as long as ROS is running with a `while(ROS::ok())` loop. In code below:
