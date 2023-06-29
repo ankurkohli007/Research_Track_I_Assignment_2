@@ -415,11 +415,19 @@ int main (int argc, char **argv)
 
 ![alt text](Results_Worlds_Images/assignmentarchitecture.png)
 
+<p align="center">
+    <em>Architecture of the project</em>
+</p>
+
 Figure above shows the *Assignment Architecture*.
 
 ## Performance of AutoPilot Robot in Monza Raccing Circuit
 
 ![Alt Text](Results_Worlds_Images/performanceofautopilotrobot.gif)
+
+<p align="center">
+    <em>Final output</em>
+</p>
 
 Above *gif* shows the *Performance of AutoPilot Robot in Monza Raccing Circuit*.
 
