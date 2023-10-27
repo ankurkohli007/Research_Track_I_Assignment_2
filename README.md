@@ -270,7 +270,7 @@ rosrun second_assignment autopilot_controller_node
 Another function called `autopilotCallBack`, this will execute a cycle that will determine what velocity to publish on the `cmd_vel`  topic. 
 
 <p align="center">
-  <img width="800" height="400" src="https://github.com/ankurkohli007/Research_Track_I_Assignment_2/blob/88383484e64d4fb3886b0df860e6b014e03924e4/Results_Worlds_Images/autopilotCallBackFlowChart.png">
+  <img width="900" height="700" src="https://github.com/ankurkohli007/Research_Track_I_Assignment_2/blob/88383484e64d4fb3886b0df860e6b014e03924e4/Results_Worlds_Images/autopilotCallBackFlowChart.png">
 </p>
 
 <p align="center">
