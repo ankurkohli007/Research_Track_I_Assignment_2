@@ -174,8 +174,6 @@ After launching of the **Monza Raccing Circuit** and also after launching of the
   <img width="900" height="500" src="https://github.com/ankurkohli007/Research_Track_I_Assignment_2/blob/4f7869e288bea89b0a28e028ac505aa17d40ff48/Results_Worlds_Images/robotturningoncurves.gif">
 </p>
 
-![Alt Text](Results_Worlds_Images/robotturningoncurves.gif)
-
 <p align="center">
     <em>Robot truns on curves</em>
 </p>
