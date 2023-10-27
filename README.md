@@ -170,6 +170,10 @@ float mini ( float arr[720], int ind=0, int size=720)
 ```
 After launching of the **Monza Raccing Circuit** and also after launching of the `robot controller node` i.e. named as `autopilot_controller_node`, he robot will move around the circuit at a constant velocity of 1.0 towards its relative x-axis resulting in a forward motion. This speed may vary depending on the accelleration factor given by the user. his float number is stored in the `acc` variable which is added to the initial linear speed. Through the `user_interface_node` the user can either rase or slow down the speed factor by 0.5 notchs.Once the middle detecting area scans a distance shorter than 1.5 units, the robot will stop driving forward and it'll check on the other detecting regions.
 
+<p align="center">
+  <img width="900" height="500" src="https://github.com/ankurkohli007/Research_Track_I_Assignment_2/blob/4f7869e288bea89b0a28e028ac505aa17d40ff48/Results_Worlds_Images/robotturningoncurves.gif">
+</p>
+
 ![Alt Text](Results_Worlds_Images/robotturningoncurves.gif)
 
 <p align="center">
