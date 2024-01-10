@@ -4,7 +4,7 @@
 [University of Genoa (UniGe), Italy](https://unige.it/en)<br>
 **Supervisor:** [Prof. Carmine Tommaso Recchiuto](https://rubrica.unige.it/personale/UkNDWV1r)
 
-# Assignment 2: Monza Raccing Circuit
+# Assignment 2: Monza Racing Circuit
 
 ## Abstract
 This assignment analyzes how to control the robot using [ROS](https://www.ros.org/) (Robot Operating System). The robot is endowed with laser scanners. There were different nodes were design to control the robot. Also, one additional node which interacts with the user to increase/decrease the speeed of the robot and reset the position of the robot. For this, ***cpp*** programing is used. 
